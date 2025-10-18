@@ -42,3 +42,23 @@ Properties(Properties can be linked to certain reviews made by users, properties
 Bookings(users can make bookings for properties when they make payments)
 Reviews(users can leave reviews of a property they booked)
 Payments(users can make payments for a certain property to make a successful booking)
+
+Feature Breakdown
+User Authentication
+  Endpoints: /users/, /users/{user_id}/
+  Features: Register new users, authenticate, and manage user profiles.
+Property Management
+  Endpoints: /properties/, /properties/{property_id}/
+  Features: Create, update, retrieve, and delete property listings.
+Booking System
+  Endpoints: /bookings/, /bookings/{booking_id}/
+  Features: Make, update, and manage bookings, including check-in and check-out details.
+Payment Processing
+  Endpoints: /payments/
+  Features: Handle payment transactions related to bookings.
+Review System
+  Endpoints: /reviews/, /reviews/{review_id}/
+  Features: Post and manage reviews for properties.
+Database Optimizations
+  Indexing: Implement indexes for fast retrieval of frequently accessed data.
+  Caching: Use caching strategies to reduce database load and improve performance.
