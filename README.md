@@ -66,3 +66,13 @@ Database Optimizations
 API Security
 Authentication - User data will be protected from illegal/unwanted access
 Authorization - Users will have certain access to some parts of the project
+
+CI/CD Pipeline
+  CI/CD stands for Continuous Integration/Continuous Deployment. It's a set of practices that automate the build, test, and deployment of software applications.
+    Continuous Integration (CI): Developers integrate code changes into a central repository frequently. Automated builds and tests ensure the codebase remains stable and functional.
+    Continuous Deployment (CD): Automated deployments to production or staging environments after successful builds and tests.
+    Tools for CI/CD:
+  1. Jenkins
+  2. GitLab CI/CD
+  3. CircleCI
+  4. GitHub Actions
